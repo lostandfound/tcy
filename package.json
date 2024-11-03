@@ -1,0 +1,31 @@
+{
+  "name": "tcy",
+  "version": "1.0.0",
+  "description": "A JavaScript library for processing Japanese vertical text, handling Tate-Chu-Yoko and text orientation adjustments",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/**/*.test.mjs"
+  },
+  "keywords": [
+    "japanese",
+    "vertical-text",
+    "tategaki",
+    "tate-chu-yoko",
+    "text-orientation",
+    "typography"
+  ],
+  "author": "Hiroshi Takase",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lostandfound/tcy.git"
+  }
+}
